@@ -20,12 +20,12 @@ model User {
   password_hash String
   created_at    DateTime @default(now())
 
-  ckeckIns CkeckIn[]
+  checkIns CheckIn[]
 
   @@map("users")
 }
 
-model CkeckIn {
+model CheckIn {
   id           String    @id @default(uuid())
   created_at   DateTime  @default(now())
   validated_at DateTime?
@@ -46,7 +46,7 @@ model Gym {
   phone       String?
   latitude    Decimal
   longitude   Decimal
-  ckeckIns    CkeckIn[]
+  checkIns    CheckIn[]
 
   @@map("gyms")
 }

@@ -1,6 +1,6 @@
 import { FastifyInstance } from 'fastify'
 import { register } from './controllers/register'
-import { authenticate } from './controllers/autheticate'
+import { authenticate } from './controllers/authenticate'
 import { profile } from './controllers/profile'
 import { verifyJWT } from './middlewares/verify-jwt'
 

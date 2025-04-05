@@ -9,7 +9,7 @@ interface SearchGymsUseCaseRequestUseCaseRequest {
 interface SearchGymsUseCaseRequestUseCaseResponse {
   gyms: Gym[]
 }
-export class SearchGymsUseCaseRequestUseCase {
+export class SearchGymsUseCase {
   constructor(private gymsRepository: GymsRepository) {}
 
   async execute({

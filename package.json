@@ -39,6 +39,7 @@
     "vitest": "3.1.1"
   },
   "dependencies": {
+    "@fastify/cookie": "11.0.2",
     "@fastify/jwt": "9.1.0",
     "@prisma/client": "6.5.0",
     "@typescript-eslint/eslint-plugin": "8.29.0",
